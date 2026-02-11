@@ -1,0 +1,102 @@
+import { ProductTier } from "@/types/subscriptions";
+
+export const SUBSCRIPTION_TIERS: ProductTier[] = [
+  {
+    name: "Starter",
+    id: "tier-hobby",
+    productId: "prod_63JTQmsUcQrlZe94IL76fI",
+    priceMonthly: "$29",
+    description: "Perfect for solopreneurs and small content sites.",
+    features: [
+      "50 Keywords Tracking",
+      "Daily Rank Updates",
+      "100 GEO Analysis Credits / mo",
+      "Basic Velocity Reports",
+      "Google Search Console Integration",
+    ],
+    featured: false,
+    discountCode: "",
+  },
+  {
+    name: "Professional",
+    id: "tier-pro",
+    productId: "prod_6rOJtTwlyjsH9AVuSzh8aR",
+    priceMonthly: "$79",
+    description: "For serious SEOs and growing SaaS businesses.",
+    features: [
+      "500 Keywords Tracking",
+      "Hourly Rank Updates",
+      "1,000 GEO Analysis Credits / mo",
+      "Advanced Velocity Trends",
+      "AI Content Optimization",
+      "Competitor GEO Analysis",
+    ],
+    featured: true,
+    discountCode: "",
+  },
+  {
+    name: "Agency",
+    id: "tier-enterprise",
+    productId: "prod_3qPYksZMtk94wQsdkgajrJ",
+    priceMonthly: "$199",
+    description: "Scale your SEO operations with maximum power.",
+    features: [
+      "Unlimited Keywords",
+      "Real-time Updates",
+      "10,000 GEO Analysis Credits / mo",
+      "White-label Reports",
+      "API Access",
+      "Dedicated Support",
+    ],
+    featured: false,
+    discountCode: "",
+  },
+];
+
+export const CREDITS_TIERS: ProductTier[] = [
+  {
+    name: "Starter Pack",
+    id: "tier-100-credits",
+    productId: "prod_MqcjVo0Bpx0rbYmHVlrh2",
+    priceMonthly: "$19",
+    description: "100 extra GEO analysis credits.",
+    creditAmount: 100,
+    features: [
+      "100 GEO Analysis Credits",
+      "Never expires",
+      "Use for any project",
+    ],
+    featured: false,
+    discountCode: "",
+  },
+  {
+    name: "Pro Pack",
+    id: "tier-500-credits",
+    productId: "prod_4ICkTovEC6o9QY6UuL3aI0",
+    priceMonthly: "$49",
+    description: "500 extra GEO analysis credits.",
+    creditAmount: 500,
+    features: [
+      "500 GEO Analysis Credits",
+      "Never expires",
+      "Priority processing",
+    ],
+    featured: true,
+    discountCode: "",
+  },
+  {
+    name: "Mega Pack",
+    id: "tier-2000-credits",
+    productId: "prod_3b3oyQtIJA3eaMIHLNjyCc",
+    priceMonthly: "$149",
+    description: "2,000 extra GEO analysis credits.",
+    creditAmount: 2000,
+    features: [
+      "2,000 GEO Analysis Credits",
+      "Never expires",
+      "Best value per credit",
+    ],
+    featured: false,
+    discountCode: "",
+  },
+];
