@@ -19,30 +19,30 @@ export default function Hero() {
               <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
                 <div className="hidden sm:mb-10 sm:flex">
                   <div className="relative rounded-full px-3 py-1 text-sm/6 text-muted-foreground ring-1 ring-border hover:ring-ring">
-                    The Next Generation of Search Optimization{' '}
+                    Experience Seedance 2.0 Reference-First AI{' '}
                     <a href="#" className="font-semibold whitespace-nowrap text-primary">
                       <span aria-hidden="true" className="absolute inset-0" />
-                      Learn about GEO <span aria-hidden="true">&rarr;</span>
+                      View Demo <span aria-hidden="true">&rarr;</span>
                     </a>
                   </div>
                 </div>
                 <h1 className="text-5xl font-semibold tracking-tight text-pretty text-foreground sm:text-7xl">
-                  SEO Velocity
+                  Seedance 2.0: Precise AI Video Creation
                 </h1>
                 <p className="mt-8 text-lg font-medium text-pretty text-muted-foreground sm:text-xl/8">
-                  Don't just track rankings—track <strong>velocity</strong>.
-                  Optimize for Google and AI Search Engines (ChatGPT, Perplexity) simultaneously.
-                  The only tool built for the Generative Engine Optimization (GEO) era.
+                  Unlock multimodal control with reference-driven cinematic generation.
+                  Sync audio, replicate motion, and maintain perfect character consistency
+                  using the world's most advanced AI video engine.
                 </p>
                 <div className="mt-10 flex items-center gap-x-6">
                   <a
                     href="/dashboard"
                     className="rounded-md bg-primary px-3.5 py-2.5 text-sm font-semibold text-primary-foreground shadow-xs hover:bg-primary/90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
                   >
-                    Start Optimizing
+                    Start Creating Now
                   </a>
                   <a href="#features" className="text-sm/6 font-semibold text-foreground">
-                    See how it works <span aria-hidden="true">→</span>
+                    Reference Mode Guide <span aria-hidden="true">→</span>
                   </a>
                 </div>
               </div>
@@ -51,8 +51,8 @@ export default function Hero() {
         </div>
         <div className="bg-muted lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
           <img
-            alt="SEO Analytics Dashboard"
-            src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2670&auto=format&fit=crop"
+            alt="Seedance 2.0 AI Video Interface"
+            src="/seedance-hero.png"
             className="aspect-3/2 object-cover lg:aspect-auto lg:size-full"
           />
         </div>
