@@ -1,39 +1,39 @@
 const faqs = [
   {
     id: 1,
-    question: "How does the global authentication system work?",
+    question: "What makes Seedance 2.0 different from other AI video generators?",
     answer:
-      "Our authentication system is built on Supabase, which supports email/password login, OAuth providers (like Google), and magic link authentication. It works seamlessly across all regions worldwide and includes features like multi-factor authentication and session management.",
+      "Seedance 2.0 uses a reference-first approach with @mention controls. You can upload up to 9 images, 3 videos, and 3 audio files to precisely control every aspect of generation—from visual style and camera motion to audio rhythm and character consistency.",
   },
   {
     id: 2,
-    question: "What payment methods are supported?",
+    question: "How long are the generated videos?",
     answer:
-      "Through our integration with Creem.io, we support major credit cards, PayPal, and various regional payment methods. The system handles multiple currencies and automatically manages exchange rates, making it easy to accept payments from customers worldwide.",
+      "Current outputs range from 4 to 15 seconds. This duration is optimized for social media content, product demos, and cinematic b-roll. We're continuously expanding capabilities for longer-form content.",
   },
   {
     id: 3,
-    question: "Is this starter kit developer-friendly for beginners?",
+    question: "Can I maintain character consistency across multiple shots?",
     answer:
-      "Absolutely! We've designed this kit with simplicity in mind. It includes comprehensive documentation, clean code structure, and follows best practices. Even if you're new to Next.js or React, you'll find it easy to understand and extend the codebase.",
+      "Yes! Seedance 2.0 excels at maintaining perfect character identity across frames and shots. Upload a reference image of your character, and the system ensures zero drift throughout multi-scene videos.",
   },
   {
     id: 4,
-    question: "Can I deploy this application anywhere?",
+    question: "Does it support audio generation?",
     answer:
-      "Yes, the application can be deployed to any modern hosting platform. We provide detailed deployment guides for Vercel, as well as instructions for deploying to traditional servers. The application is optimized to work globally with minimal configuration.",
+      "Absolutely. Seedance 2.0 generates native audio including sound effects, music, and multi-language lip-sync dialogue. Audio automatically syncs with on-screen actions for seamless integration.",
   },
   {
     id: 5,
-    question: "How do I manage subscriptions and billing?",
+    question: "What's the success rate for first-try outputs?",
     answer:
-      "The starter kit includes a complete subscription management system. You can define different subscription tiers, manage billing cycles, and handle customer accounts through the admin dashboard. All payment processing is handled securely by Creem.io.",
+      "Seedance 2.0 achieves over 90% usable outputs on the first generation. The reference-driven system dramatically reduces iteration cycles compared to traditional prompt-only generators.",
   },
   {
     id: 6,
-    question: "Is the code base accessible for developers in all regions?",
+    question: "Can I replicate specific camera movements?",
     answer:
-      "Yes, we've carefully selected dependencies and hosting providers that work well globally. The codebase is optimized for developers worldwide, with consideration for different network environments and accessibility requirements.",
+      "Yes. Upload a reference video and Seedance 2.0 will replicate complex camera work including dolly shots, tracking movements, crane shots, and editing rhythm with precision.",
   },
 ]
 

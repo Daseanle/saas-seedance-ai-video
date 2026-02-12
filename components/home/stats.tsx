@@ -1,10 +1,10 @@
 'use client'
 
 const stats = [
-  { id: 1, name: 'Creators on the platform', value: '8,000+' },
-  { id: 2, name: 'Flat platform fee', value: '3%' },
-  { id: 3, name: 'Uptime guarantee', value: '99.9%' },
-  { id: 4, name: 'Paid out to creators', value: '$70M' },
+  { id: 1, name: 'First-Try Success Rate', value: '90%+' },
+  { id: 2, name: 'Max Reference Files', value: '12' },
+  { id: 3, name: 'Output Resolution', value: '2K' },
+  { id: 4, name: 'Multi-Language Lip-Sync', value: '20+' },
 ]
 
 export default function Stats() {
@@ -14,9 +14,9 @@ export default function Stats() {
         <div className="mx-auto max-w-2xl lg:max-w-none">
           <div className="text-center">
             <h2 className="text-4xl font-semibold tracking-tight text-balance text-foreground sm:text-5xl">
-              Trusted by creators worldwide
+              Industry-Leading Performance
             </h2>
-            <p className="mt-4 text-lg/8 text-muted-foreground">Lorem ipsum dolor sit amet consect adipisicing possimus.</p>
+            <p className="mt-4 text-lg/8 text-muted-foreground">Powered by ByteDance's cutting-edge multimodal AI technology.</p>
           </div>
           <dl className="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4">
             {stats.map((stat) => (

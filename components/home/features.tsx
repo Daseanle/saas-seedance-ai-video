@@ -4,27 +4,27 @@ import { ChartBarIcon, CpuChipIcon, GlobeAltIcon, LightBulbIcon } from '@heroico
 
 const features = [
   {
-    name: 'Keyword Velocity Tracking',
+    name: 'Multimodal Reference Control',
     description:
-      'Stop looking at static rankings. We calculate the velocity of your keyword movements to predict future trends before they happen.',
+      'Upload up to 9 images, 3 videos, and 3 audio files per generation. Use @mentions to precisely control visual style, motion, camera work, and audio rhythm.',
     icon: ChartBarIcon,
   },
   {
-    name: 'Generative Engine Optimization (GEO)',
+    name: 'Perfect Character Consistency',
     description:
-      'Analyze how your brand appears in AI search engines like ChatGPT, Perplexity, and Gemini. Get insights to improve your visibility in the LLM era.',
+      'Maintain flawless identity across frames and shots. No more character drift—Seedance 2.0 ensures your subjects stay consistent throughout multi-scene videos.',
     icon: CpuChipIcon,
   },
   {
-    name: 'Cross-Platform Intelligence',
+    name: 'Native Audio-Visual Sync',
     description:
-      'Unified dashboard for traditional Google Search Console data alongside modern AI search visibility metrics.',
+      'Generate videos with integrated sound effects, music, and multi-language lip-sync dialogue. Audio matches on-screen actions automatically.',
     icon: GlobeAltIcon,
   },
   {
-    name: 'AI-Powered Recommendations',
+    name: 'Complex Motion Replication',
     description:
-      'Receive actionable, AI-generated suggestions on how to improve your content structure and schema for better machine readability.',
+      'Upload reference videos to replicate intricate choreography, camera movements (dolly, tracking, crane), and editing rhythm with precision.',
     icon: LightBulbIcon,
   },
 ]
@@ -34,13 +34,13 @@ export default function Features() {
     <div id="features" className="bg-background py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
-          <h2 className="text-base/7 font-semibold text-primary">Next-Gen SEO Platform</h2>
+          <h2 className="text-base/7 font-semibold text-primary">Powered by ByteDance AI</h2>
           <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-foreground sm:text-5xl lg:text-balance">
-            Dominate Search in the Age of AI
+            Reference-First Video Generation
           </p>
           <p className="mt-6 text-lg/8 text-muted-foreground">
-            Traditional SEO tools are blind to 50% of modern search traffic.
-            <strong>SEO Velocity</strong> bridges the gap between Google rankings and AI visibility.
+            Seedance 2.0 delivers over 90% usable outputs on first try.
+            <strong> No more endless iterations</strong>—just precise, cinematic results from your references.
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
